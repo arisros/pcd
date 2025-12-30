@@ -1,0 +1,48 @@
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# ======================
+# Mise
+# ======================
+.mise/
+.mise.toml.local
+
+# ======================
+# OS / Editor
+# ======================
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+
+# ======================
+# Jupyter / Cache
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# Output / Temp Files
+# ======================
+*.log
+*.tmp
+*.out
+
+# ======================
+# Build / Distribution
+# ======================
+dist/
+build/
+*.egg-info/
