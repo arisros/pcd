@@ -1,4 +1,3 @@
-```md
 # Deteksi Lantai Keramik Kotor
 
 Proyek ini bertujuan untuk membedakan kondisi lantai keramik **bersih** dan **kotor** menggunakan teknik pengolahan citra digital.  
@@ -18,6 +17,7 @@ Semua dependensi dapat dipasang melalui `requirements.txt`.
 ---
 
 ## Struktur Singkat
+
 ```
 
 .
@@ -27,7 +27,7 @@ Semua dependensi dapat dipasang melalui `requirements.txt`.
 └── docs/
 └── sequence-diagram.png
 
-````
+```
 
 ---
 
@@ -36,6 +36,7 @@ Semua dependensi dapat dipasang melalui `requirements.txt`.
 ![Sequence Diagram](sequence_diagram.png)
 
 **Ringkas:**
+
 1. Sistem membaca citra lantai keramik.
 2. Citra dikonversi ke grayscale dan dilakukan reduksi noise.
 3. Sistem mengekstraksi fitur statistik (mean dan standar deviasi).
@@ -50,7 +51,7 @@ Semua dependensi dapat dipasang melalui `requirements.txt`.
 pip install -r requirements.txt
 python deteksi_lantai_kotor.py
 
-````
+```
 
 Pastikan file gambar (`lantai.jpg`) berada pada path yang sesuai dengan yang ditentukan di dalam kode.
 
